@@ -37,7 +37,7 @@ pen.addEventListener('click', draw);
 function draw() {
     container.addEventListener('mouseover', changeColor);
     function changeColor(e) {
-        e.target.style.cursor = "url('./pencil.cur'), auto";
+        e.target.style.cursor = "url('./cursor/pencil.cur'), auto";
         e.target.style.backgroundColor = 'black';
     }
 }
@@ -48,7 +48,7 @@ eraser.addEventListener('click', erase);
 function erase() {
     container.addEventListener('mouseover', changeColor);
     function changeColor(e) {
-        e.target.style.cursor = "url('./eraser.cur'), auto";
+        e.target.style.cursor = "url('./cursor/eraser.cur'), auto";
         e.target.style.backgroundColor = 'white';
     }
 }
