@@ -1,0 +1,39 @@
+h1 {
+    max-width: fit-content;
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+    font-family:'Courier New', Courier, monospace;
+}
+.buttons {
+    max-width: fit-content;
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+}
+button {
+    padding: 5px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(4, 88, 88);
+    color: aliceblue;
+    border-radius: 5px;
+}
+#container {
+    outline: 0.5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    height: 800px;
+    margin: auto;
+}
+.box {
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.pen {
+    cursor: url(https://ani.cursors-4u.net/others/oth-9/oth838.cur), auto; /* End https://www.cursors-4u.com */
+}
+.eraser {
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=72976), auto;
+}
