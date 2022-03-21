@@ -31,13 +31,13 @@ function clearGrid() {
     createGrid(boxSize);
 }
 
-const pen = document.querySelector('.pen');
+const pen = document.querySelector('.pencil');
 pen.addEventListener('click', draw);
 
 function draw() {
     container.addEventListener('mouseover', changeColor);
     function changeColor(e) {
-        e.target.style.cursor = "url('./cursor/pencil.cur'), auto";
+        e.target.style.cursor = "url(https://ani.cursors-4u.net/others/oth-9/oth838.cur), auto";
         e.target.style.backgroundColor = 'black';
     }
 }
@@ -48,7 +48,7 @@ eraser.addEventListener('click', erase);
 function erase() {
     container.addEventListener('mouseover', changeColor);
     function changeColor(e) {
-        e.target.style.cursor = "url('./cursor/eraser.cur'), auto";
+        e.target.style.cursor = "url(http://www.rw-designer.com/cursor-extern.php?id=72976), auto";
         e.target.style.backgroundColor = 'white';
     }
 }
